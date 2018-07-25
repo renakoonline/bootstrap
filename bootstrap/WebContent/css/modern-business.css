@@ -1,0 +1,161 @@
+/*!
+ * Start Bootstrap - Modern Business (https://startbootstrap.com/template-overviews/modern-business)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-logomodern-business-nav/blob/master/LICENSE)
+ */
+
+body {
+  padding-top: 54px;
+}
+body {
+    font-family: "Lato", sans-serif;
+    transition: background-color .5s;
+}
+.navbar-custom {
+    color: #362c22;
+    background-color: #ffad5a;
+}
+
+  .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 70%;
+      margin: auto;
+  }
+/*!
+.breadcrumb{
+	background-color: ##ffad5a;
+}
+*/
+.navbar{
+	color: #dd7b29;
+}
+.title {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 22px;
+	text-decoration: none;
+	color: #c4640f;
+	
+	padding: 0px 20px 10px 0px;
+	display: block;
+
+}
+.subtitle {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	text-decoration: none;
+	color: #005683;
+	line-height: 17px;
+	font-weight:bold;
+}
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {	
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+.content-bold {
+	font-family: Arial;
+	font-size: 12px;
+	color: #000000;
+	text-decoration: none;
+	line-height: 17px;
+	font-weight: bold;
+}
+
+#main {
+    transition: margin-left .5s;
+    padding: 16px;
+}
+.links:hover {
+	color: #ff6600;
+}
+
+.pagelinks {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	text-decoration: none;
+	color: #000000;
+}
+.links:hover {
+	color: #ff6600;
+}
+#casestudy
+{ padding-left:25px;
+}
+.smlcontent {
+	font-family: Arial;
+	font-size: 11px;
+	color: #000000;
+	text-decoration: none;
+	line-height: 15px;
+	text-align: justify;
+}
+
+.orangesmlcontent {
+	font-family: Arial;
+	font-size: 11px;
+	color: #ff6600;
+	text-decoration: none;
+	line-height: 15px;
+	font-weight: bold;
+}
+
+.orgcontent {
+	font-family: Arial;
+	font-size: 12px;
+	color: #fd8e46;
+	text-decoration: none;
+	line-height: 15px;
+	font-weight: bold;
+}
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+@media (min-width: 992px) {
+  body {
+    padding-top: 56px;
+  }
+}
+
+.carousel-item {
+  height: 65vh;
+  min-height: 250px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.portfolio-item {
+  margin-bottom: 30px;
+  
+}
